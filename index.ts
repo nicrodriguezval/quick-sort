@@ -26,7 +26,7 @@ function partition(arr: number[], lo: number, hi: number): number {
   return j;
 }
 
-function test() {
+function test(): void {
   const arr = [3, 2, 1, 5, 4];
   quickSort(arr, 0, arr.length - 1);
   console.log(arr);
